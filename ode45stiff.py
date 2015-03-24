@@ -143,6 +143,7 @@ ax.grid(True)
 ax.legend(loc="lower right")
 ax.set_xlabel("x")
 ax.set_ylabel("y")
+savefig("ode45stiff.pdf")
 show()
 
 """
